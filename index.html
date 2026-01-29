@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en"></html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- AOS CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Coffino</title>
+
+    </head>
+    
+<body>
+
+  <!-- ===== NAVIGATION & HEADER SECTION ===== -->
+<header id="header-section" class="site-header">
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="navbar" aria-label="Main Navigation">
+    <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#story" class="nav-item">Our Story</a>
+      <a href="#coffino-menu" class="nav-item">Our Menu</a>
+      
+      <a href="#header-section" class="logo" aria-label="Go to homepage">
+        <img id="navbar-logo" src="images/logo1.png" alt="Café Logo" loading="lazy">
+      </a>
+      
+      <a href="#coffino-events" class="nav-item">Our Events</a>
+      <a href="#coffino-footer" class="nav-item">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h3 class="hero-title">Welcome to Our Café</h3>
+      <p class="hero-subtitle">Carefully roasted. Freshly brewed. Warmly served..</p>
+    </div>
+      <div class="social-icons" aria-label="Social Media Links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+</header>
+
+
+<!-- ====== STORY SECTION ====== -->
+<section id="story" class="story-section">    
+    <!-- Section Header -->
+    <div class="story-header">
+      <h2 class="section-title">At Coffino, Where Every Cup Tells a Story</h2>
+      <p class="section-subtitle">
+        At Coffino, we believe coffee is more than just a drink — it’s a moment of comfort, connection, and creativity.
+      </p>
+    </div>
+
+    <!-- Content Wrapper -->
+    <div class="story-content">
+      
+      <!-- Text Content -->
+      <div class="story-text">
+        <article class="story-item">
+          <h3>Sourcing with Care</h3>
+          <p>We partner with local and ethical growers to bring you premium, sustainably sourced coffee beans.</p>
+        </article>
+
+        <article class="story-item">
+          <h3>Crafting with Passion</h3>
+          <p>Every espresso, latte, and pour-over is brewed with precision and love by our expert baristas.</p>
+        </article>
+
+        <article class="story-item">
+          <h3>Serving with Heart</h3>
+          <p>Whether it’s your first visit or your daily ritual, we make sure every moment feels personal and warm.</p>
+        </article>
+
+        <article class="story-item">
+          <h3>Creating Comfort</h3>
+          <p>Our space is designed for connection — work, relax, or catch up with friends in a welcoming atmosphere.</p>
+        </article>
+
+        <article class="story-item">
+          <h3>Growing Together</h3>
+          <p>We’re committed to supporting our community and the planet, one cup at a time.</p>
+        </article>
+      </div>
+
+      <!-- Image -->
+      <div class="story-image">
+        <img src="images/story-img.png" alt="Coffino coffee cup on a rustic table" loading="lazy" />
+      </div>
+    </div>
+  
+</section>
+
+
+
+<section id="coffino-menu" class="menu-section">
+    <h2>Our Menu</h2>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filter-buttons">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="hot-coffees">Hot Coffees</button>
+      <button data-filter="iced-coffees">Iced Coffees</button>
+      <button data-filter="frappes">Frappés</button>
+    </div>
+
+    <!-- MENU ITEMS -->
+    <div class="menu-container">
+
+      <!-- Coffee Items -->
+       <!-- Product 1 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/Espresso.png" alt="Espresso"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Espresso</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>A concentrated shot with bold intensity and a lingering finish. Perfect for coffee purists.</p>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/Cappuccino.png" alt="Cappuccino"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Cappuccino</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>A balanced mix of espresso, creamy milk, and airy foam. Light yet full of flavor.</p>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/Americano.png" alt="Americano"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Americano</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Smooth espresso diluted with hot water for a lighter, easy-drinking cup</p>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/Flat White.png" alt="Flat White"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Flat White</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Espresso topped with silky microfoam for a bold yet velvety taste.</p>
+        </div>
+      </div>
+      <!-- Product 5 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/hot Caramel.png" alt="hot Caramel"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Hot Caramel Macchiato</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Layers of milk and espresso finished with a sweet caramel drizzle.</p>
+        </div>
+      </div>
+      <!-- Product 6 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/Latte.png" alt="Latte"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Latte</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Creamy steamed milk mellowing out a strong espresso shot. Comforting and smooth.</p>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="menu-item hot-coffees">
+        <div class="menu-img"><img src="images/menu/hot Mocha.png" alt="hot Mocha"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Hot Mocha</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Chocolate and coffee combined into a rich, indulgent treat.</p>
+        </div>
+      </div>
+      <!-- iced coffee-->
+     <!-- Product 1 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Iced Americano.png" alt="Iced Americano.png"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Iced Americano</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Crisp, chilled espresso with a clean, refreshing edge.</p>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Cold Brew.png" alt="Cold Brew"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Cold Brew</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Steeped for hours for a naturally smooth and bold flavor.</p>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Nitro Cold Brew.png" alt="Nitro Cold Brew"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Nitro Cold Brew</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Cold brew infused with nitrogen for a creamy, frothy texture.</p>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Iced Latte.png" alt="Iced Latte"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Iced Latte</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Smooth espresso blended with cold milk and ice for a creamy refreshment.</p>
+        </div>
+      </div>
+      <!-- Product 5 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Iced Mocha.png" alt="Iced Mocha"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Iced Mocha</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>A cool blend of espresso, chocolate, and milk with a sweet finish.</p>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="menu-item iced-coffees">
+        <div class="menu-img"><img src="images/menu/Iced Caramel Macchiato.png" alt="Iced Caramel Macchiato"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Iced Caramel Macchiato</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Cold layers of milk, espresso, and caramel for a sweet, icy pick-me-up.</p>
+        </div>
+      </div>
+
+      <!--Frappe-->
+    <!-- Product 1 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/Coffee Frappe.png" alt="Coffee Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Coffee Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Classic coffee blended into an icy, refreshing drink.</p>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/Caramel Frappe.png" alt="Caramel Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Caramel Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Sweet caramel mixed with coffee and ice for a creamy delight.</p>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/mochaa Frappe.png" alt="Mocha Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Mocha Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Espresso and chocolate blended into a frosty, indulgent treat.</p>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/Cookies Cream Frappé.png" alt="Cookies Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Cookies Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>A playful blend of coffee, cream, and cookie crumbles.</p>
+        </div>
+      </div>
+      <!-- Product 5 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/Matcha Frappe.png" alt="Matcha Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Matcha Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Earthy green tea blended with milk and ice for a refreshing twist.</p>
+        </div>
+      </div>
+      <!-- Product 6 -->
+      <div class="menu-item frappes">
+        <div class="menu-img"><img src="images/menu/Vanilla Frappe.png" alt="Vanilla Frappé"></div>
+        <div style="flex:1;">
+          <div class="menu-details">
+            <div class="menu-info"><h3>Vanilla Frappé</h3></div>
+            <div class="menu-price">$99.00</div>
+          </div>
+          <p>Light, smooth, and perfectly sweet with a touch of vanilla.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- coffino events-->
+<section class="coffino-events" id="coffino-events">
+  <h2>WELCOME TO Coffino's Events</h2>
+  <p class="intro-text">
+    We source our beans from sustainable farms and roast them in small batches for unmatched freshness.
+    Every sip tells a story of passion, precision, and purpose. <br> Stay tuned for upcoming events — because at Coffee Haven, there’s always something brewing!
+  </p>
+
+
+  
+  <div class="event-cards">
+    <!-- Event 1 -->
+    <div class="event-card">
+      <img src="images/card-2.png" alt="Coffee Journey" />
+      <div class="event-info">
+        <h3>From Bean to Brew – Coffee Journey Experience</h3>
+        <p>
+          Ever wondered what makes your coffee taste so special?  
+          Join us for an immersive session where we take you behind the scenes —  
+          from the origin of our beans to the final pour in your cup.
+        </p>
+        <p>
+          Our head roaster will walk you through the coffee life cycle, share roasting secrets,  
+          and let you sample different roasts to explore how flavor evolves.
+        </p>
+
+        <ul class="event-details">
+          <li><i class="fa-regular fa-calendar-days"></i> Date: First Sunday of every month</li>
+          <li><i class="fa-regular fa-clock"></i> Time: 11:00 AM – 1:00 PM</li>
+          <li><i class="fa-solid fa-ticket"></i> Entry: Free with RSVP</li>
+        </ul>
+
+        <button>Discover the story behind every sip</button>
+      </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event-card">
+      <img src="images/card-1.png" alt="Latte Art Throwdown" />
+      <div class="event-info">
+        <h3>Latte Art Throwdown – The Barista Challenge</h3>
+        <p>
+          It’s time for some friendly foam competition!  
+          Watch skilled baristas from around the city go head-to-head in a latte art showdown — hearts, tulips, swans, and more.
+        </p>
+        <p>
+          Guests can cheer, taste, and even vote for their favorite design.  
+          Whether you’re a coffee lover or just here for the art, it’s an event you won’t forget.
+        </p>
+
+        <ul class="event-details">
+          <li><i class="fa-regular fa-calendar-days"></i> Date: Last Saturday of every month</li>
+          <li><i class="fa-regular fa-clock"></i> Time: 5:00 PM – 7:00 PM</li>
+          <li><i class="fa-solid fa-ticket"></i> Entry: Free for guests | Barista registration required</li>
+        </ul>
+
+        <button>Where passion, precision, and creativity meet</button>
+      </div>
+    </div>
+  </div>
+  <h2>Experience the heart and soul of Coffino</h2>
+  <p class="intro-text">
+    Here’s a glimpse of our latest coffee events — moments filled with creativity, laughter, and the aroma of freshly roasted beans.
+We hope these snapshots inspire you to join us next time and be part of our lively coffee-loving family.
+
+  </p>
+
+
+
+
+  <!-- slidshow-->
+<div class="slideshow-gallery">
+
+  <h2>Coffino's Events Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/coffee-art1.png" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/coffee-art2.png" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/coffee-art3.png" >
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/coffee-art4.png" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/coffee-art5.png" >
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/coffee-art6.png">
+  </div>
+  <div class="pn">
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  </div> 
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art1.png" style="width:100%" onclick="currentSlide(1)" alt="Coffino Events Gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art2.png" style="width:100%" onclick="currentSlide(2)" alt="Coffino Events Gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art3.png" style="width:100%" onclick="currentSlide(3)" alt="Coffino Events Gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art4.png" style="width:100%" onclick="currentSlide(4)" alt="Coffino Events Gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art5.png" style="width:100%" onclick="currentSlide(5)" alt="Coffino Events Gallery">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/coffee-art6.png" style="width:100%" onclick="currentSlide(6)" alt="Coffino Events Gallery">
+    </div>
+  </div>
+</div>
+
+</div>
+  <!-- Statistics -->
+  <div class="statistics-section" id="coffino-stats">
+    <h2>Coffino’s Statistics</h2>
+    <p class="stats-subtitle">Our community’s love for coffee and connection.</p>
+
+    <div class="stats-container">
+      <div class="stat">
+        <h3 class="count" data-target="2500">0</h3>
+        <p>Event Participants</p>
+      </div>
+      <div class="stat">
+        <h3 class="count" data-target="4800">0</h3>
+        <p>Coffee Lovers</p>
+      </div>
+      <div class="stat">
+        <h3 class="count" data-target="97">0</h3>
+        <p>Customer Happiness (%)</p>
+      </div>
+      <div class="stat">
+        <h3 class="count" data-target="120">0</h3>
+        <p>Baristas Trained</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+</section>
+
+
+
+<!--footer-->
+<footer class="footer-section" id="coffino-footer">
+  <!-- About Section -->
+  <div class="footer-info">
+    <h3>Coffino</h3>
+    <p>What’s happening at Coffino — workshops, tastings, and fun coffee events!</p>
+  </div>
+
+  <!-- Open Hours -->
+  <div class="footer-hours">
+    <h3>Open Hours</h3>
+    <p>Monday - Friday<br>8.00 AM – 8.00 PM<br><br>
+       Saturday - Sunday<br>2.00 PM – 8.00 PM</p>
+  </div>
+
+  <!-- Contact -->
+  <div class="footer-contact">
+    <h3>Contact Us</h3>
+    <p>Address: Loram Ipsum<br>
+    Call: +01 1234567890<br>
+    Email: demo@gmail.com</p>
+
+    <div class="footer-social-icons" aria-label="Social Media Links">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+        
+     
+    </div>
+
+  <!-- Contact Form -->
+  <div class="footer-form">
+    <h3>Contact Us</h3>
+    <form>
+      <input type="text" placeholder="Your Name..." required>
+      <input type="text" placeholder="Your Phone..." required>
+      <input type="email" placeholder="Your Email..." required>
+      <textarea placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  
+  <div class="footer-bar">
+      Code By Rana-Elsherbiny
+  </div>
+
+</footer>
+
+ 
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
