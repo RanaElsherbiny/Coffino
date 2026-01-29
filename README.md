@@ -1,4 +1,4 @@
-☕ Coffino Café — Preface
+☕ Coffino Café 
 
 Coffino Café is designed to provide users with a warm and immersive browsing experience, combining clean aesthetics with practical functionality.  
 The website features a **fully responsive layout**, ensuring it looks elegant and works smoothly across all screen sizes — including desktops, laptops, tablets, and mobile devices.
